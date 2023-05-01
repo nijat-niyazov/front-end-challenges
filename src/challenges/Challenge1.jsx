@@ -1,5 +1,5 @@
 const Challenge1 = () => {
-  const string = 'fives';
+  const string = 'world';
 
   return (
     <div className="flex h-screen items-center justify-center">
