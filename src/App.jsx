@@ -1,4 +1,4 @@
-import Challenge2 from './challenges/Challenge2';
+import Challenge2 from './challenges/Layout';
 
 const App = () => {
   return (
