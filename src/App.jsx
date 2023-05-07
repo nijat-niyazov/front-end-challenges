@@ -1,11 +1,7 @@
-import Challenge2 from './challenges/Layout';
+import Pricing from './challenges/Pricing';
 
 const App = () => {
-  return (
-    <div>
-      <Challenge2 />
-    </div>
-  );
+  return <Pricing />;
 };
 
 export default App;
