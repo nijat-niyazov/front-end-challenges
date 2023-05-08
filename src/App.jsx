@@ -1,7 +1,9 @@
-import Pricing from './challenges/Pricing';
+import Navbar from './challenges/Navbar';
+import ProtoTurk from './challenges/ProtoTurk';
+import Y from './challenges/Y';
 
 const App = () => {
-  return <Pricing />;
+  return <ProtoTurk />;
 };
 
 export default App;
