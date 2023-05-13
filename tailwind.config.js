@@ -2,9 +2,11 @@
 export default {
   content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
   theme: {
-    extend: {width: {
-      '128': '128rem',
-    }},
+    extend: {
+      backgroundImage: {
+        fastFood: "url('./assets/fastfood.jpeg')",
+      },
+    },
   },
   plugins: [],
 };

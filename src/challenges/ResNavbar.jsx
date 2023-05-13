@@ -37,8 +37,10 @@ const icons = [
   },
 ];
 
-const ResNavbar = () => {
+const SlideBar = () => {
   const navRef = useRef();
+
+  // some issues remains
 
   return (
     <div className="h-screen w-full bg-gray-300 text-[18px]">
@@ -79,4 +81,4 @@ const ResNavbar = () => {
   );
 };
 
-export default ResNavbar;
+export default SlideBar;

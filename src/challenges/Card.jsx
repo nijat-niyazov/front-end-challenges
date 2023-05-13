@@ -1,6 +1,8 @@
 const Challenge1 = () => {
   const string = 'world';
 
+  // ✅
+
   return (
     <div className="flex h-screen items-center justify-center">
       <div className="flex w-[450px] rounded-3xl bg-[#272e39] font-sans">

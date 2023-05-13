@@ -41,6 +41,8 @@ const layout = [
 ];
 
 const Challenge2 = () => {
+  // ✅
+
   return (
     <>
       <section className=" place-items-strech  m-[30px]  grid  h-auto w-[1300px]  grid-cols-4     gap-x-[20px] gap-y-[30px] rounded-2xl border-2  border-solid bg-[#d5d9df] p-[20px] text-white">

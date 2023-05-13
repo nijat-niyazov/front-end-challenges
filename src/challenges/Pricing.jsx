@@ -3,6 +3,8 @@ import React, { useState } from 'react';
 const Pricing = () => {
   const [toggle, setToggle] = useState(false);
 
+  // ✅
+
   const data = [
     {
       name: 'Basic',

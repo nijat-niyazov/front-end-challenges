@@ -1,29 +1,22 @@
-import {
-  createBrowserRouter,
-  createRoutesFromElements,
-  Route,
-  RouterProvider,
-} from 'react-router-dom';
-import ResNavbar from './challenges/ResNavbar';
-import CA from './challenges/CA';
+import MainNav from './challenges/EndlessCategory/MainNav';
 
 const App = () => {
-  const router = createBrowserRouter(
-    createRoutesFromElements(
-      <Route path="/" element={<ResNavbar />}>
-        <Route path="home" element={<ResNavbar />} />
-        <Route path="tasks" element={<ResNavbar />} />
-        <Route path="analytics" element={<ResNavbar />} />
-        <Route path="help" element={<ResNavbar />} />
-        <Route path="profile" element={<ResNavbar />} />
-        <Route path="wallet" element={<ResNavbar />} />
-        <Route path="settings" element={<ResNavbar />} />
-      </Route>
-    )
-  );
+  // const router = createBrowserRouter(
+  //   createRoutesFromElements(
+  //     <Route path="/" element={<SliderBar />}>
+  //       <Route path="home" element={<SliderBar />} />
+  //       <Route path="tasks" element={<SliderBar />} />
+  //       <Route path="analytics" element={<SliderBar />} />
+  //       <Route path="help" element={<SliderBar />} />
+  //       <Route path="profile" element={<SliderBar />} />
+  //       <Route path="wallet" element={<SliderBar />} />
+  //       <Route path="settings" element={<SliderBar />} />
+  //     </Route>
+  //   )
+  // );
+  // return <RouterProvider router={router} />;
 
-  return <RouterProvider router={router} />;
-  // return <CA />;
+  return <MainNav />;
 };
 
 export default App;
