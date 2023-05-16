@@ -1,5 +1,4 @@
-import MainNav from './challenges/EndlessCategory/MainNav';
-import ResLayoutIndian from './challenges/ResLayoutIndian';
+import MainNav from './challenges/EndlessCategory-Disclosure/MainNav';
 
 const App = () => {
   // const router = createBrowserRouter(
@@ -17,7 +16,7 @@ const App = () => {
   // );
   // return <RouterProvider router={router} />;
 
-  return <ResLayoutIndian />;
+  return <MainNav />;
 };
 
 export default App;
